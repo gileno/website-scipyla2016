@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-13 11:56-0200\n"
+"POT-Creation-Date: 2016-02-14 23:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,17 +48,354 @@ msgid ""
 "href='http://www.python.org/psf/'>Python Software Foundation</a>."
 msgstr ""
 
-#: templates/about/about.html:7 templates/about/code_of_conduct.html:7
-#: templates/about/diversity.html:7 templates/about/organizers.html:7
 #: templates/homepage.html:7 templates/keynotes.html:7
-#: templates/participate/ambassadors.html:7
-#: templates/participate/plotting_contest.html:7
 #: templates/privacy_policy.html:7 templates/sponsor_levels.html:7
-#: templates/sponsorship.html:7 templates/venue/directions.html:7
-#: templates/venue/floorplans.html:7 templates/venue/lodging.html:7
-#: templates/venue/restaurants.html:7 templates/venue/venue.html:7
-#: templates/video_highlights.html:7
+#: templates/sponsorship.html:7 templates/video_highlights.html:7
+#: templates/about/about.html:7 templates/about/code_of_conduct.html:7
+#: templates/about/diversity.html:7 templates/about/friends.html:8
+#: templates/about/organizers.html:7 templates/participate/ambassadors.html:7
+#: templates/participate/plotting_contest.html:7
+#: templates/venue/directions.html:7 templates/venue/floorplans.html:7
+#: templates/venue/lodging.html:7 templates/venue/restaurants.html:7
+#: templates/venue/venue.html:7
 msgid "Welcome"
+msgstr ""
+
+#: templates/homepage.html:15
+msgid "Attend"
+msgstr ""
+
+#: templates/homepage.html:17
+msgid ""
+"The annual SciPyLA Conference allows participants from academic, commercial, "
+"and governmental organizations to showcase their latest Scientific Python "
+"projects, learn from skilled users and developers, and collaborate on code "
+"development."
+msgstr ""
+
+#: templates/homepage.html:18
+msgid ""
+"We look forward to a very exciting conference and hope to see you at the "
+"2016 conference."
+msgstr ""
+
+#: templates/homepage.html:22
+msgid "Be Inspired"
+msgstr ""
+
+#: templates/homepage.html:23
+msgid "Check the review from the previous editions:"
+msgstr ""
+
+#: templates/homepage.html:57
+msgid "Follow"
+msgstr ""
+
+#: templates/privacy_policy.html:13
+msgid "Information We Collect and How It's Used"
+msgstr ""
+
+#: templates/privacy_policy.html:19
+msgid "Credit Card Information"
+msgstr ""
+
+#: templates/privacy_policy.html:24
+msgid "Cookies"
+msgstr ""
+
+#: templates/privacy_policy.html:37
+msgid "Aggregate Information"
+msgstr ""
+
+#: templates/privacy_policy.html:43
+msgid "Email addresses"
+msgstr ""
+
+#: templates/privacy_policy.html:51
+msgid "Disclosure of Information Policy"
+msgstr ""
+
+#: templates/site_base.html:37
+msgid "Log in"
+msgstr ""
+
+#: templates/site_base.html:40
+msgid "Sign up"
+msgstr ""
+
+#: templates/site_base.html:44
+msgid "Dashboard"
+msgstr ""
+
+#: templates/site_base.html:47
+msgid "Settings"
+msgstr ""
+
+#: templates/site_base.html:51
+msgid "Admin"
+msgstr ""
+
+#: templates/site_base.html:55
+msgid "Log out"
+msgstr ""
+
+#: templates/site_base.html:64
+msgid "Scientific Computing with Python"
+msgstr ""
+
+#: templates/site_base.html:64
+msgid "Florianópolis, Santa Catarina, Brazil &#8226; May 16-20"
+msgstr ""
+
+#: templates/site_base.html:64
+msgid "Registration will open soon"
+msgstr ""
+
+#: templates/sponsor_levels.html:13
+msgid "SciPyLA 2016 Sponsorship Levels"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:3
+msgid "General Sponsorship Packages Available:"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:6
+msgid "Gold"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:6
+msgid "(two available)"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:7
+msgid "US$3,000"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:10
+#: templates/sponsor_levels_alone.html:25
+#: templates/sponsor_levels_alone.html:37
+#: templates/sponsor_levels_alone.html:50
+msgid "Benefits:"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:12
+msgid "Gold Sponsor link with logo on SciPyLA 2016 website"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:13
+msgid "90 cm x 180 cm banner (sponsor provided) in main session auditorium"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:14
+msgid ""
+"logo listed as Gold Sponsor on 90 cm x 180 cm Sponsor Banner at main entrance"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:15
+msgid "Promotion of jobs to attendee list"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:16
+msgid ""
+"Opportunity to host two pre-event workshop (one on Monday and another on "
+"Tuesday)"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:17
+msgid "1/2 page advertisement in program"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:21
+msgid "Silver"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:21
+msgid "(eight available)"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:22
+msgid "US$2,000"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:27
+msgid "Silver Sponsor link with logo on SciPyLA 2016 website"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:28
+msgid ""
+"logo listed as Silver Sponsor on 90 cm x 180 cm Sponsor Banner at main "
+"entrance"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:29
+msgid "1/4 page advertisement in program"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:33
+msgid "Bronze"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:34
+msgid "US$1,000"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:39
+msgid "Bronze Sponsor link with logo on SciPyLA 2016 website"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:40
+msgid ""
+"Name listed as Bronze Sponsor on 90 cm x 180 cm Sponsor Banner at main "
+"entrance"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:44
+msgid "Friend"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:45
+msgid "in-kind resources"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:48
+msgid ""
+"This is a special categorie for companies that help SciPyLA by supporting "
+"their employers to attented SciPyLA."
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:52
+msgid "Friend Sponsor link with logo on SciPyLA 2016 Friend web page"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:56
+msgid "Media and Community Sponsors"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:57
+msgid "co-promotion"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:60
+msgid "Promotion opportunities:"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:62
+msgid "logo on website"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:63
+msgid "email to conference list"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:64
+msgid "social media promotion"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:65
+msgid "mention in newsletter"
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:66
+msgid "..."
+msgstr ""
+
+#: templates/sponsor_levels_alone.html:69
+msgid ""
+"Please email <a href='mailto:2016@scipyla.org'>2016@scipyla.org</a> with any "
+"questions or to reserve your Sponsorship Package."
+msgstr ""
+
+#: templates/sponsorship.html:13
+msgid "SciPyLA 2016 Sponsorship"
+msgstr ""
+
+#: templates/sponsorship.html:15
+msgid ""
+"As a community, SciPy Latin America advances scientific and analytic "
+"computing through the development and promotion of open source Python "
+"software; Python usage continues to grow significantly in scientific and "
+"analytic computing thanks to the efforts of this community."
+msgstr ""
+
+#: templates/sponsorship.html:18
+msgid ""
+"The annual SciPyLA Conference brings together academic and industry users to "
+"present their latest work, learn from skilled users and developers, and "
+"collaborate on advancing the ecosystem."
+msgstr ""
+
+#: templates/sponsorship.html:20
+msgid "2-days of Tutorials"
+msgstr ""
+
+#: templates/sponsorship.html:22
+msgid ""
+"We provide two days of expert-led tutorials at the start of the conference.  "
+"These tutorials are very popular, with an introductory track for attendees "
+"new to Python, and intermediate and advanced tracks for experienced users."
+msgstr ""
+
+#: templates/sponsorship.html:24
+msgid "3-days of Talks, Poster Sessions"
+msgstr ""
+
+#: templates/sponsorship.html:26
+msgid ""
+"Authors share their juried presentations and poster papers covering the "
+"latest developments in the use of Python in science during the three main "
+"days of the conference. Presentations, posters, lightning talks provide a "
+"wide variety of opportunities for attendees to participate and learn."
+msgstr ""
+
+#: templates/sponsorship.html:28
+msgid "Why Sponsor?"
+msgstr ""
+
+#: templates/sponsorship.html:30
+msgid "Contribute to the growth of the community and code base:"
+msgstr ""
+
+#: templates/sponsorship.html:32
+msgid ""
+"Your sponsorship helps us build a financial foundation for the conference "
+"and the community, providing more opportunities for the community to build "
+"out the Python scientific computing tools and packages."
+msgstr ""
+
+#: templates/sponsorship.html:35
+msgid "Build awareness, recruit, and make contacts:"
+msgstr ""
+
+#: templates/sponsorship.html:37
+#, python-format
+msgid ""
+"SciPyLA brings together some of the best minds in scientific and analytic "
+"computing, 25%% of them students; you’ll be hard-pressed to find this kind "
+"of audience anywhere else."
+msgstr ""
+
+#: templates/sponsorship.html:40
+msgid "Help fund attendance:"
+msgstr ""
+
+#: templates/sponsorship.html:43
+msgid ""
+"SciPyLA offers scholarships for students and researchers who contribute to "
+"the community."
+msgstr ""
+
+#: templates/sponsorship.html:45
+msgid "Sponsorships also help us to keep this meeting very affordable."
+msgstr ""
+
+#: templates/sponsorship.html:49
+msgid "2015 Sponsor Participation"
+msgstr ""
+
+#: templates/sponsorship.html:51
+msgid ""
+"SciPyLA 2015 was sponsored by Universidade Gastón Dachary, Machinalis, "
+"Python Software Foundation, GitHub, Enthought."
 msgstr ""
 
 #: templates/about/about.html:14
@@ -390,6 +727,20 @@ msgstr ""
 msgid ""
 "Conference Code of Conduct is licensed under a Creative Commons Attribution "
 "3.0 Unported License."
+msgstr ""
+
+#: templates/about/communities.html:8
+msgid "Communities Sponsors"
+msgstr ""
+
+#: templates/about/communities.html:15
+msgid "Communities Sponsors of SciPyLA 2016"
+msgstr ""
+
+#: templates/about/communities.html:17
+msgid ""
+"The following communities are supporting the SciPyLA or it has members who "
+"support."
 msgstr ""
 
 #: templates/about/diversity.html:14
@@ -839,6 +1190,17 @@ msgstr ""
 msgid "Authors"
 msgstr ""
 
+#: templates/about/friends.html:15
+msgid "Friends of SciPyLA 2016"
+msgstr ""
+
+#: templates/about/friends.html:17
+msgid ""
+"The following groups and enterprises made a commit to help SciPyLA by "
+"organizing and advertising the event, sending their members to the "
+"conference and in some case with in-kind donations."
+msgstr ""
+
 #: templates/about/organizers.html:14
 msgid "The SciPyLA 2016 Organization Team"
 msgstr ""
@@ -851,63 +1213,63 @@ msgstr ""
 msgid "Conference Chair:"
 msgstr ""
 
-#: templates/about/organizers.html:26
+#: templates/about/organizers.html:27
 msgid "Academic Chair:"
 msgstr ""
 
-#: templates/about/organizers.html:33
+#: templates/about/organizers.html:34
 msgid "Scientific Chair:"
 msgstr ""
 
-#: templates/about/organizers.html:41
+#: templates/about/organizers.html:42
 msgid "Communications:"
 msgstr ""
 
-#: templates/about/organizers.html:49
+#: templates/about/organizers.html:50
 msgid "Birds of Feathers:"
 msgstr ""
 
-#: templates/about/organizers.html:57
+#: templates/about/organizers.html:58
 msgid "Proceedings:"
 msgstr ""
 
-#: templates/about/organizers.html:65
+#: templates/about/organizers.html:66
 msgid "Financial Aid:"
 msgstr ""
 
-#: templates/about/organizers.html:74
+#: templates/about/organizers.html:75
 msgid "Tutorials:"
 msgstr ""
 
-#: templates/about/organizers.html:82
+#: templates/about/organizers.html:83
 msgid "Sprints:"
 msgstr ""
 
-#: templates/about/organizers.html:91
+#: templates/about/organizers.html:92
 msgid "Technical:"
 msgstr ""
 
-#: templates/about/organizers.html:99
+#: templates/about/organizers.html:100
 msgid "Sponsors:"
 msgstr ""
 
-#: templates/about/organizers.html:107
+#: templates/about/organizers.html:108
 msgid "Financial:"
 msgstr ""
 
-#: templates/about/organizers.html:115
+#: templates/about/organizers.html:116
 msgid "Logistics"
 msgstr ""
 
-#: templates/about/organizers.html:123
+#: templates/about/organizers.html:124
 msgid "Program Committee"
 msgstr ""
 
-#: templates/about/organizers.html:138
+#: templates/about/organizers.html:140
 msgid "Mini Symposiums Committee"
 msgstr ""
 
-#: templates/about/organizers.html:149
+#: templates/about/organizers.html:151
 msgid "Diversity Committee"
 msgstr ""
 
@@ -927,53 +1289,28 @@ msgstr ""
 msgid "Start by <a href=\"%(login_url)s\">logging in</a>."
 msgstr ""
 
-#: templates/homepage.html:15
-msgid "Attend"
-msgstr ""
-
-#: templates/homepage.html:17
-msgid ""
-"The annual SciPyLA Conference allows participants from academic, commercial, "
-"and governmental organizations to showcase their latest Scientific Python "
-"projects, learn from skilled users and developers, and collaborate on code "
-"development."
-msgstr ""
-
-#: templates/homepage.html:18
-msgid ""
-"We look forward to a very exciting conference and hope to see you at the "
-"2016 conference."
-msgstr ""
-
-#: templates/homepage.html:22
-msgid "Be Inspired"
-msgstr ""
-
-#: templates/homepage.html:23
-msgid "Check the review from the previous editions:"
-msgstr ""
-
-#: templates/homepage.html:53
-msgid "Follow"
-msgstr ""
-
 #: templates/participate/ambassadors.html:14
 msgid "The SciPyLA 2016 Ambassadors Team"
 msgstr ""
 
 #: templates/participate/ambassadors.html:16
-msgid "Bolivia:"
+msgid "Argentina:"
 msgstr ""
 
 #: templates/participate/ambassadors.html:23
+msgid "Bolivia:"
+msgstr ""
+
+#: templates/participate/ambassadors.html:30
 msgid "Costa Rica:"
 msgstr ""
 
-#: templates/participate/ambassadors.html:29
+#: templates/participate/ambassadors.html:36
 msgid "Venezuela:"
 msgstr ""
 
-#: templates/participate/bofs.html:7 templates/participate/financial_aid.html:7
+#: templates/participate/bofs.html:7
+#: templates/participate/financial_aid.html:7
 #: templates/participate/wssspe.html:7
 msgid "BoFs Call"
 msgstr ""
@@ -1018,22 +1355,21 @@ msgstr ""
 
 #: templates/participate/presentations.html:29
 msgid ""
-"<strong>We invite proposals for 20 minutes talks and poster presentations by "
-"April 1, 2014.</strong>"
+"<strong>We invite proposals for 20 minutes talks and poster presentations.</"
+"strong>"
 msgstr ""
 
 #: templates/participate/presentations.html:31
-#: templates/participate/tutorials.html:128
+#: templates/participate/tutorials.html:129
 msgid "Proposal Submission"
 msgstr ""
 
 #: templates/participate/presentations.html:33
+#: templates/participate/tutorials.html:131
 msgid ""
-"To submit a proposal, <a href='https://conference.scipy.org/scipyla2016/"
-"account/signup/'>sign up</a> or <a href='https://conference.scipy.org/"
-"scipyla2016/account/login/'>log in</a> to your account and proceed to your "
-"<a href='https://conference.scipy.org/scipyla2016/dashboard/'>account "
-"dashboard</a>."
+"To submit a proposal, <a href='/scipyla2016/account/signup/'>sign up</a> or "
+"<a href='/scipyla2016/account/login/'>log in</a> to your account and proceed "
+"to your <a href='/scipyla2016/dashboard/'>account dashboard</a>."
 msgstr ""
 
 #: templates/participate/presentations.html:36
@@ -1041,7 +1377,7 @@ msgid "Click submit proposal, talk/poster, create new..."
 msgstr ""
 
 #: templates/participate/presentations.html:38
-#: templates/participate/tutorials.html:134
+#: templates/participate/tutorials.html:135
 msgid "For the submission you will need the following information:"
 msgstr ""
 
@@ -1064,7 +1400,7 @@ msgid ""
 "and evidence of public speaking ability are encouraged."
 msgstr ""
 
-#: templates/participate/presentations.html:47
+#: templates/participate/presentations.html:46
 msgid ""
 "Each abstract will be peer-reviewed by multiple members of the Program "
 "Committee Board. Abstracts will be accepted for posters or presentations. "
@@ -1074,15 +1410,47 @@ msgid ""
 "conference."
 msgstr ""
 
+#: templates/participate/presentations.html:48
+#: templates/participate/tutorials.html:149
+msgid "Announcement"
+msgstr ""
+
 #: templates/participate/presentations.html:50
-msgid "Accepted presentations will be announced on May 1st."
+msgid "Accepted presentations will be announced on April 22nd."
 msgstr ""
 
 #: templates/participate/presentations.html:52
-msgid "The SciPyLA 2016 Program Chairs"
+#: templates/participate/tutorials.html:153
+msgid "Important dates:"
 msgstr ""
 
 #: templates/participate/presentations.html:55
+msgid "March 1st: Initial date for submission of presentations"
+msgstr ""
+
+#: templates/participate/presentations.html:56
+msgid "April 8th: Deadline for submission of presentations"
+msgstr ""
+
+#: templates/participate/presentations.html:57
+msgid "April 22nd: Notification of acceptance for presentations"
+msgstr ""
+
+#: templates/participate/presentations.html:58
+msgid "May 19th-21th: SciPyLA 2016, 3 days of presentations"
+msgstr ""
+
+#: templates/participate/presentations.html:61
+msgid ""
+"We look forward to very exciting presentations and hope to see you all at "
+"the conference."
+msgstr ""
+
+#: templates/participate/presentations.html:63
+msgid "The SciPyLA 2016 Program Chairs"
+msgstr ""
+
+#: templates/participate/presentations.html:66
 msgid "Melissa Weber Mendonça, Federal University of Santa Catarina"
 msgstr ""
 
@@ -1113,28 +1481,22 @@ msgstr ""
 #: templates/participate/tutorials.html:115
 msgid ""
 "The conference will kick off with two days of tutorials. These sessions "
-"provide extremely affordable access to expert training, and consistently "
-"receive fantastic feedback from participants.  "
+"provide access to expert training, and consistently receive fantastic "
+"feedback from participants."
 msgstr ""
 
-#: templates/participate/tutorials.html:117
-msgid ""
-"<strong>We are now accepting tutorial proposals from individuals or teams "
-"that would like to teach a tutorial at SciPyLA 2016</strong>"
-msgstr ""
-
-#: templates/participate/tutorials.html:119
+#: templates/participate/tutorials.html:120
 msgid ""
 "Whether you are a major contributor to a scientific Python library or an "
 "expert-level user, this is a great opportunity to share your knowledge and "
 "offset some of the costs of your SciPyLA 2016 attendance."
 msgstr ""
 
-#: templates/participate/tutorials.html:121
+#: templates/participate/tutorials.html:122
 msgid "Topics"
 msgstr ""
 
-#: templates/participate/tutorials.html:123
+#: templates/participate/tutorials.html:124
 #, python-format
 msgid ""
 "Tutorials should be focused on covering a well-defined topic in a hands-on "
@@ -1143,7 +1505,7 @@ msgid ""
 "this means the subject matter needs to be limited."
 msgstr ""
 
-#: templates/participate/tutorials.html:126
+#: templates/participate/tutorials.html:127
 msgid ""
 "For examples of content and format, you can refer to past tutorials from "
 "SciPy tutorial sessions (<a href='http://conference.scipy.org/scipy2015/"
@@ -1154,46 +1516,39 @@ msgid ""
 "faster scientific applications."
 msgstr ""
 
-#: templates/participate/tutorials.html:130
-msgid ""
-"To submit a proposal, <a href='/scipyla2016/account/signup/'>sign up</a> or "
-"<a href='/scipyla2016/account/login/'>log in</a> to your account and proceed "
-"to your <a href='/scipyla2016/dashboard/'>account dashboard</a>."
-msgstr ""
-
-#: templates/participate/tutorials.html:132
+#: templates/participate/tutorials.html:133
 msgid "Click submit proposal, tutorials, create new... "
 msgstr ""
 
-#: templates/participate/tutorials.html:136
+#: templates/participate/tutorials.html:137
 msgid ""
 "A short bio of the presenter or team members, containing a description of "
 "past experiences as a trainer/teacher/speaker, and (ideally) links to videos "
 "of these experiences if available."
 msgstr ""
 
-#: templates/participate/tutorials.html:137
+#: templates/participate/tutorials.html:138
 msgid ""
 "Which track the tutorial would fit best in (Introductory, Intermediate, or "
 "Advanced) and, in the case of an Introductory tutorial submission, select "
 "one of the 4 introductory topics."
 msgstr ""
 
-#: templates/participate/tutorials.html:138
+#: templates/participate/tutorials.html:139
 msgid ""
 "A description of the tutorial, suitable for posting on the SciPy website for "
 "attendees to view. It should include the target audience, the expected level "
 "of knowledge prior to the class, and the goals of the class."
 msgstr ""
 
-#: templates/participate/tutorials.html:139
+#: templates/participate/tutorials.html:140
 msgid ""
 "A more detailed outline of the tutorial content including the duration of "
 "each part and exercise sessions. Please include a description of how you "
 "plan to make the tutorial hands-on."
 msgstr ""
 
-#: templates/participate/tutorials.html:140
+#: templates/participate/tutorials.html:141
 msgid ""
 "A list of Python packages that attendees will need to have installed prior "
 "to the class to follow along. Please mention if any packages are not cross "
@@ -1202,84 +1557,57 @@ msgid ""
 "pip, EPD, Anaconda, etc., or that require third party or compiled libraries."
 msgstr ""
 
-#: templates/participate/tutorials.html:141
+#: templates/participate/tutorials.html:142
 msgid ""
 "If available, the tutorial notes, slides, exercise files, and iPython "
 "notebooks, even if they are preliminary."
 msgstr ""
 
-#: templates/participate/tutorials.html:144
-msgid "Selection"
-msgstr ""
-
-#: templates/participate/tutorials.html:146
+#: templates/participate/tutorials.html:147
 msgid ""
-"Accepted tutorials will be announced on April 22nd. Final tutorial materials "
-"and instructions for attendees will be due on May 9th. This will include "
-"final version numbers of required software and a test script that can be run "
-"by attendees to ensure that they have sufficient time to prepare their "
-"laptops before the conference."
-msgstr ""
-
-#: templates/participate/tutorials.html:148
-msgid "Important dates:"
+"Each tutorial will be peer-reviewed by multiple members of the Program "
+"Committee Board. This year final tutorial materials and instructions for "
+"attendees will be due on May 9th. This will include final version numbers of "
+"required software and a test script that can be run by attendees to ensure "
+"that they have sufficient time to prepare their laptops before the "
+"conference."
 msgstr ""
 
 #: templates/participate/tutorials.html:151
+msgid "Accepted tutorials will be announced on April 22nd."
+msgstr ""
+
+#: templates/participate/tutorials.html:156
 msgid "March 1st: Initial date for submission of tutorials"
 msgstr ""
 
-#: templates/participate/tutorials.html:152
+#: templates/participate/tutorials.html:157
 msgid "April 8th: Deadline for submission of tutorials"
 msgstr ""
 
-#: templates/participate/tutorials.html:153
+#: templates/participate/tutorials.html:158
 msgid "April 22nd: Notification of acceptance for tutorials"
 msgstr ""
 
-#: templates/participate/tutorials.html:154
+#: templates/participate/tutorials.html:159
 msgid "May 16th-18th: SciPyLA 2016, 2 days of tutorials"
 msgstr ""
 
-#: templates/participate/tutorials.html:157
+#: templates/participate/tutorials.html:162
 msgid ""
 "We look forward to very exciting tutorials and hope to see you all at the "
 "conference."
 msgstr ""
 
-#: templates/participate/tutorials.html:160
+#: templates/participate/tutorials.html:165
 msgid "The SciPyLA 2016 Tutorial Chairs"
 msgstr ""
 
-#: templates/participate/tutorials.html:163
+#: templates/participate/tutorials.html:168
 msgid ""
 "<a href='mailto:jeudy.blanco@cinespa.ucr.ac.cr'>Jeudy Blanco</a>, Professor "
 "and researcher at <a href='http://cinespa.ucr.ac.cr/'>CINESPA</a>, "
 "Universidad de Costa Rica"
-msgstr ""
-
-#: templates/privacy_policy.html:13
-msgid "Information We Collect and How It's Used"
-msgstr ""
-
-#: templates/privacy_policy.html:19
-msgid "Credit Card Information"
-msgstr ""
-
-#: templates/privacy_policy.html:24
-msgid "Cookies"
-msgstr ""
-
-#: templates/privacy_policy.html:37
-msgid "Aggregate Information"
-msgstr ""
-
-#: templates/privacy_policy.html:43
-msgid "Email addresses"
-msgstr ""
-
-#: templates/privacy_policy.html:51
-msgid "Disclosure of Information Policy"
 msgstr ""
 
 #: templates/proposals/_proposal_fields.html:4
@@ -1405,289 +1733,6 @@ msgid ""
 "use the following form and he or she will be\n"
 "                            notified and given the opportunity to respond.\n"
 "                        "
-msgstr ""
-
-#: templates/site_base.html:37
-msgid "Log in"
-msgstr ""
-
-#: templates/site_base.html:40
-msgid "Sign up"
-msgstr ""
-
-#: templates/site_base.html:44
-msgid "Dashboard"
-msgstr ""
-
-#: templates/site_base.html:47
-msgid "Settings"
-msgstr ""
-
-#: templates/site_base.html:51
-msgid "Admin"
-msgstr ""
-
-#: templates/site_base.html:55
-msgid "Log out"
-msgstr ""
-
-#: templates/site_base.html:64
-msgid "Scientific Computing with Python"
-msgstr ""
-
-#: templates/site_base.html:64
-msgid "Florianópolis, Santa Catarina, Brazil &#8226; May 16-20"
-msgstr ""
-
-#: templates/site_base.html:64
-msgid "Registration will open soon"
-msgstr ""
-
-#: templates/sponsor_levels.html:13
-msgid "SciPyLA 2016 Sponsorship Levels"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:3
-msgid "General Sponsorship Packages Available:"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:6
-msgid "Gold"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:6
-msgid "(two available)"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:7
-msgid "US$3,000"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:10
-#: templates/sponsor_levels_alone.html:25
-#: templates/sponsor_levels_alone.html:37
-#: templates/sponsor_levels_alone.html:50
-msgid "Benefits:"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:12
-msgid "Gold Sponsor link with logo on SciPyLA 2016 website"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:13
-msgid "90 cm x 180 cm banner (sponsor provided) in main session auditorium"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:14
-msgid ""
-"logo listed as Gold Sponsor on 90 cm x 180 cm Sponsor Banner at main entrance"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:15
-msgid "Promotion of jobs to attendee list"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:16
-msgid ""
-"Opportunity to host two pre-event workshop (one on Monday and another on "
-"Tuesday)"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:17
-msgid "1/2 page advertisement in program"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:21
-msgid "Silver"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:21
-msgid "(eight available)"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:22
-msgid "US$2,000"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:27
-msgid "Silver Sponsor link with logo on SciPyLA 2016 website"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:28
-msgid ""
-"logo listed as Silver Sponsor on 90 cm x 180 cm Sponsor Banner at main "
-"entrance"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:29
-msgid "1/4 page advertisement in program"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:33
-msgid "Bronze"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:34
-msgid "US$1,000"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:39
-msgid "Bronze Sponsor link with logo on SciPyLA 2016 website"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:40
-msgid ""
-"Name listed as Bronze Sponsor on 90 cm x 180 cm Sponsor Banner at main "
-"entrance"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:44
-msgid "Friend"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:45
-msgid "in-kind resources"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:48
-msgid ""
-"This is a special categorie for companies that help SciPyLA by supporting "
-"their employers to attented SciPyLA."
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:52
-msgid "Friend Sponsor link with logo on SciPyLA 2016 Friend web page"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:56
-msgid "Media and Community Sponsors"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:57
-msgid "co-promotion"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:60
-msgid "Promotion opportunities:"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:62
-msgid "logo on website"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:63
-msgid "email to conference list"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:64
-msgid "social media promotion"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:65
-msgid "mention in newsletter"
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:66
-msgid "..."
-msgstr ""
-
-#: templates/sponsor_levels_alone.html:69
-msgid ""
-"Please email <a href='mailto:2016@scipyla.org'>2016@scipyla.org</a> with any "
-"questions or to reserve your Sponsorship Package."
-msgstr ""
-
-#: templates/sponsorship.html:13
-msgid "SciPyLA 2016 Sponsorship"
-msgstr ""
-
-#: templates/sponsorship.html:15
-msgid ""
-"As a community, SciPy Latin America advances scientific and analytic "
-"computing through the development and promotion of open source Python "
-"software; Python usage continues to grow significantly in scientific and "
-"analytic computing thanks to the efforts of this community."
-msgstr ""
-
-#: templates/sponsorship.html:18
-msgid ""
-"The annual SciPyLA Conference brings together academic and industry users to "
-"present their latest work, learn from skilled users and developers, and "
-"collaborate on advancing the ecosystem."
-msgstr ""
-
-#: templates/sponsorship.html:20
-msgid "2-days of Tutorials"
-msgstr ""
-
-#: templates/sponsorship.html:22
-msgid ""
-"We provide two days of expert-led tutorials at the start of the conference.  "
-"These tutorials are very popular, with an introductory track for attendees "
-"new to Python, and intermediate and advanced tracks for experienced users."
-msgstr ""
-
-#: templates/sponsorship.html:24
-msgid "3-days of Talks, Poster Sessions"
-msgstr ""
-
-#: templates/sponsorship.html:26
-msgid ""
-"Authors share their juried presentations and poster papers covering the "
-"latest developments in the use of Python in science during the three main "
-"days of the conference. Presentations, posters, lightning talks provide a "
-"wide variety of opportunities for attendees to participate and learn."
-msgstr ""
-
-#: templates/sponsorship.html:28
-msgid "Why Sponsor?"
-msgstr ""
-
-#: templates/sponsorship.html:30
-msgid "Contribute to the growth of the community and code base:"
-msgstr ""
-
-#: templates/sponsorship.html:32
-msgid ""
-"Your sponsorship helps us build a financial foundation for the conference "
-"and the community, providing more opportunities for the community to build "
-"out the Python scientific computing tools and packages."
-msgstr ""
-
-#: templates/sponsorship.html:35
-msgid "Build awareness, recruit, and make contacts:"
-msgstr ""
-
-#: templates/sponsorship.html:37
-#, python-format
-msgid ""
-"SciPyLA brings together some of the best minds in scientific and analytic "
-"computing, 25%% of them students; you’ll be hard-pressed to find this kind "
-"of audience anywhere else."
-msgstr ""
-
-#: templates/sponsorship.html:40
-msgid "Help fund attendance:"
-msgstr ""
-
-#: templates/sponsorship.html:43
-msgid ""
-"SciPyLA offers scholarships for students and researchers who contribute to "
-"the community."
-msgstr ""
-
-#: templates/sponsorship.html:45
-msgid "Sponsorships also help us to keep this meeting very affordable."
-msgstr ""
-
-#: templates/sponsorship.html:49
-msgid "2015 Sponsor Participation"
-msgstr ""
-
-#: templates/sponsorship.html:51
-msgid ""
-"SciPyLA 2015 was sponsored by Universidade Gastón Dachary, Machinalis, "
-"Python Software Foundation, GitHub, Enthought."
 msgstr ""
 
 #: templates/sponsorship/list.html:7 templates/sponsorship/list.html.py:14

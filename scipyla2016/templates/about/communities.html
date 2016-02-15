@@ -1,0 +1,31 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+{% load thumbnail %}
+{% load sponsorship_tags %}
+{% load boxes_tags %}
+
+{% block head_title %}{% trans "Communities Sponsors" %}{% endblock %}
+
+{% block body_class %}home{% endblock %}
+
+{% block body %}
+<h1>{% trans "Communities Sponsors of SciPyLA 2016" %}</h1>
+
+<p>{% trans "The following communities are supporting the SciPyLA or it has members who support." %}</p>
+
+{% for level, sponsors in sponsor_levels %}
+    {% if sponsors %}
+    <ul style="list-style-position: inside;  padding-left: 1em;">
+        {% if level.name == "Media & Community" %}
+            {% for s in sponsors %}
+            <li>
+                <a href="{{ s.external_url }}">{{ s.name }}</a>
+            </li>
+            {% endfor %}
+        {% endif %}
+    </ul>
+    {% endif %}
+{% endfor %}
+
+{% endblock %}

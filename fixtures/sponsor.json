@@ -1,34 +1,370 @@
 [
     {
-        "pk": 1, 
-        "model": "sponsorship.sponsor", 
+        "pk": 1,
+        "model": "sponsorship.sponsor",
         "fields": {
-            "added": "2016-02-10T07:30:04", 
-            "name": "Anitas", 
-            "level": 5, 
-            "sponsor_logo": 1, 
-            "applicant": 1, 
-            "contact_email": "julia@curtacircuitos.com.br", 
-            "active": true, 
-            "contact_name": "J\u00falia Machado", 
-            "annotation": "", 
+            "added": "2016-02-10T07:30:04",
+            "name": "Anitas",
+            "level": 5,
+            "sponsor_logo": 1,
+            "applicant": 1,
+            "contact_email": "julia@curtacircuitos.com.br",
+            "active": true,
+            "contact_name": "J\u00falia Machado",
+            "annotation": "",
             "external_url": "http://anitas.com.br/"
         }
-    }, 
+    },
     {
-        "pk": 2, 
-        "model": "sponsorship.sponsor", 
+        "pk": 2,
+        "model": "sponsorship.sponsor",
         "fields": {
-            "added": "2016-02-10T07:50:28", 
-            "name": "PyLadies Floripa", 
-            "level": 5, 
-            "sponsor_logo": 2, 
-            "applicant": 1, 
-            "contact_email": "leportella@gmail.com", 
-            "active": true, 
-            "contact_name": "Leticia Portella", 
-            "annotation": "", 
+            "added": "2016-02-10T07:50:28",
+            "name": "PyLadies Floripa",
+            "level": 5,
+            "sponsor_logo": 2,
+            "applicant": 1,
+            "contact_email": "leportella@gmail.com",
+            "active": true,
+            "contact_name": "Leticia Portella",
+            "annotation": "",
             "external_url": "https://www.facebook.com/PyLadies-Floripa-763762813730310/"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-Al - Grupo de Usuários Python de Alagoas",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://groups.google.com/group/grupy-al"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-AM - Grupo de Usuários Python da Amazônia",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://groups.google.com/group/grupy-am"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-BA - Grupo de Usuários Python da Bahia",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://groups.google.com/group/grupy-ba"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "PUG-PE - Grupo de Usuários Python do Ceára",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://groups.google.com/group/pug-ce"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-DF - Grupo de Usuários Python do Distrito Federal",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://df.python.org.br/"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-ES - Grupo de Usuários Python do Espiríto Santo",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://groups.google.com/group/grupy_es"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-GO - Grupo de Usuários Python de Goiás",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://groups.google.com/group/grupy-go"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "PUG-MA - Grupo de Usuários Python do Maranhão",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://groups.google.com/group/pug-ma"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "PUG-MG - Grupo de Usuários Python da Bahia",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "https://groups.google.com/forum/#!forum/python-mg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-PB - Grupo de Usuários Python da Paraíba",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://groups.google.com/group/grupy-pb"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "PUG-PE - Grupo de Usuários Python de Pernambuco",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://groups.google.com/group/pug-pe"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-PR - Grupo de Usuários Python do Paraná",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "https://groups.google.com/forum/#!forum/grupy-pr"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "PythonRio - Grupo de Usuários Python do Rio de Janeiro",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "https://www.facebook.com/pythonrio"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-RN - Grupo de Usuários Python do Rio Grande do Norte",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://groups.google.com/group/grupy-rn"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-RS - Grupo de Usuários Python do Rio Grande do Sul",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://groups.google.com/group/grupy-rs"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-RO - Grupo de Usuários Python de Rondônia",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://groups.google.com/group/grupy-ro/"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-SC - Grupo de Usuários Python de Santa Catarina",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "https://groups.google.com/forum/#!forum/grupysc"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "PUG-SE - Grupo de Usuários Python de Sergipe",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "https://groups.google.com/forum/#!forum/pug-se"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "GruPy-SP - Grupo de Usuários Python de São Paulo",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "https://groups.google.com/forum/#!forum/grupy-sp"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "PUG-PI - Grupo de Usuários Python do Piauí",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "https://www.facebook.com/groups/pugpi/"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "sponsorship.sponsor",
+        "fields": {
+            "added": "2016-02-13T00:00:00",
+            "name": "Programando Ciência",
+            "level": 4,
+            "sponsor_logo": null,
+            "applicant": 1,
+            "contact_email": "",
+            "active": true,
+            "contact_name": "",
+            "annotation": "",
+            "external_url": "http://programandociencia.com/"
         }
     }
 ]

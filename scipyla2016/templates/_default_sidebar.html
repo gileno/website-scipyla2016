@@ -15,7 +15,7 @@
         </div>
 
   {% for level, sponsors in sponsor_levels %}
-    {% if level.name != "Friends" %}
+    {% if level.name != "Friends" and level.name != "Media & Community" %}
       {% if sponsors %}
         <h4 style="margin-top: 3em;">{{ level }}</h4>
         {% for s in sponsors %}
